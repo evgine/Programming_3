@@ -1,4 +1,5 @@
 var LivingCreature = require("./class.livingCreature");
+
 module.exports = class Lazer {
     constructor(x, y, index) {
         this.index = index;

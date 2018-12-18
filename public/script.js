@@ -52,12 +52,15 @@ function setup() {
         }
     }
     console.log(matrix);
+
     frameRate(1);
     createCanvas(matrix[0].length * side, matrix.length * side);
     background('#acacac');
+
     matrix[20][5] = 5;
     matrix[28][35] = 5;
     matrix[12][46] = 5;
+    
     for (var y = 0; y < n; y++) {
         for (var x = 0; x < m; x++) {
             if (matrix[y][x] == 1) {
