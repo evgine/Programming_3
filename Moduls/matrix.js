@@ -1,5 +1,3 @@
-
-
 for (var y = 0; y < n; y++) {
     matrix[y] = [];
     for (var x = 0; x < m; x++) {
@@ -7,7 +5,6 @@ for (var y = 0; y < n; y++) {
     }
 }
 console.log(matrix);
-
 
 matrix[20][5] = 5;
 matrix[28][35] = 5;
@@ -33,7 +30,8 @@ for (var y = 0; y < n; y++) {
     }
 }
 console.log(matrix);
-module.exports = matrix;
+module.exports =matrix; 
+
 
 
 // var time = frameRate(1);
